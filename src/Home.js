@@ -2,12 +2,13 @@ import React from "react";
 import PDFViewer from './PDFViewer'
 import LinkedIn from './linkedin.png'
 import Mojo from './mojocollage.jpeg'
+import Resume from './resume.pdf'
 
 export default function Home() {
     // Function will execute on click of button
     const onButtonClick = () => {
         // using Java Script method to get PDF file
-        fetch('/resume_file').then(response => {
+        fetch(Resume).then(response => {
             response.blob().then(blob => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
