@@ -26,7 +26,7 @@ export default function Home() {
       <div style={{display: 'flex', justifyContent:'space-between'}}>
         <div>
           <h4>About Me</h4>
-          <p>I am a mechanical engineer with 25+ years of experience delivering successful projects and products in a wide range of .</p>
+          <p>I am a mechanical engineer with 25+ years of experience delivering successful projects and products in a wide range of fields, which can be seen on this website.</p>
           <p>I have extensive experience working as both an engineer and a manager. Above all I am a creative problem solver who is passionate about creating elegant solutions to the most complex and challenging problems.</p>
         </div>
       <div style={{marginTop:'50px'}}>
