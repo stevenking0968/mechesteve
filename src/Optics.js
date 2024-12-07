@@ -6,12 +6,18 @@ import Objective from "./objective.png";
 import OpticalMount from "./opticalmount.png"
 import Laser from "./laser.png"
 import GoPro from "./gopro.png"
+import GlueStation from "./gluestation.png"
 
 export default function Optics() {
 	  return (
 	    <div className="molex" style={{marginTop:'30px', maxWidth:'70%'}}>
 	      <h4>Camera/Optics</h4>
 	      <div style={{marginBottom:'60px'}}>
+	      <p>I developed an 8-channel optical ring-down cavity rear mirror flexure glue curing system. This system includes temperature/time control system, pneumatic flow rate control, parametric data setting and running control system. Easy and safe operation.</p>
+	      <div style={{display:'flex', justifyContent:'space-around'}}>
+		    <img src={GlueStation} style={{width:'400px'}}/>
+	      </div>
+	      <div style={{marginBottom:'50px'}}>
 	      <p>At GoPro, I developed a new compensation structure which signficantly alleviated an issue where the camera would defocus due to heat. My new design reduced the defocus from 25 um to only 12 um.</p>
 	      <div style={{display:'flex', justifyContent:'space-around'}}>
 		    <img src={GoPro} style={{width:'400px'}}/>
