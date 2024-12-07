@@ -17,8 +17,7 @@ export default function Optics() {
 	      <div style={{display:'flex', justifyContent:'space-around'}}>
 		    <img src={GlueStation} style={{width:'400px'}}/>
 	      </div>
-	      <div style={{marginBottom:'50px'}}>
-	      <p>At GoPro, I developed a new compensation structure which signficantly alleviated an issue where the camera would defocus due to heat. My new design reduced the defocus from 25 um to only 12 um.</p>
+	      <p style={{paddingTop:'50px'}}>At GoPro, I developed a new compensation structure which signficantly alleviated an issue where the camera would defocus due to heat. My new design reduced the defocus from 25 um to only 12 um.</p>
 	      <div style={{display:'flex', justifyContent:'space-around'}}>
 		    <img src={GoPro} style={{width:'400px'}}/>
 	      </div>
